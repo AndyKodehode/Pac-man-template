@@ -3,11 +3,11 @@
 /* 
 title i head: Pac-man
 container for grid
-"score" og noe som lagrer score
-"level" og noe som lagrer level
+"score" og noe som man lagrer score i
+"level" og noe som man lagrer level i
 */
 
-// css
+// CSS
 
 /*
  Grids: høyde og bredde // hele rammen for spillet
@@ -25,6 +25,18 @@ container for grid
 // JS
 
 /*
+
+Javascript metoder du kan få bruk for i dette prosjektet
+
+- loops
+- Arrays
+- If else statements
+- .className
+- appendChild
+- push
+- math.random
+- .innerHTML
+- .addEventListener
 
 Grid fra Ania Kubow
 const layout = [
@@ -64,50 +76,43 @@ const layout = [
     3- power-pellet
     4- empty
     
+    
+    Du må lage ruter i div som vi har kalt grid,
+    hver rute blir en index som det enten kan være pac-dots, wall, ghost-laier, power-pellet eller pac-man på
+    det må ikke være flere ruter enn det er elementer i layout siden disse skal fylle grid. 
+    Det kan være greit å bruke en loop her for å sjekke opp mot lengden på layout.
 
-    En loop som går igjennom hvert element i layout og lager divs for hvert element i layout
-    legg divs til grid
-    Lag en ny array utenfor loop, gi den et navn, push divs i loopen inn i den nye arrayen
+    Du må finne ut hvilke ruter som har hvilket tall og gi de riktig class som du definerte i CSS
 
-    Inne i loopen, lag sjekker som ser om indexen er et visst tall 
-    hvis det er tallet du ser etter, bruk array utenfor loop, med index, til å legge til det classenavnet som tallet representerer
+    Du må definere hvilken index pacman har
 
+    
+    finn ut hvordan du kan registrere hvilken key du trykker på tastaturet 
+    legg til hva som skal skje med index når du trykker opp, ned, venstre, høyre
 
-    Lag en startindex for pac-man, hvor han er på brettet, og bruk array fra tidligere med pacmanindex til å sette pac-man på brettet
+    du må finne ut hvordan du flytter pacman, du må legge til og fjerne className og oppdatere indexen pacman er på
 
-    finn ut hvilke keys du vil bruke for å flytte pac-man
+    Hvordan skal du få inn at du treffer vegg og ikke kan gå igjennom vegg?
 
-    finn en måte å fjerne class pac-man og legge til pac-man på en ny index
+    Hvordan skal du sørge for at du ikke havner på neste linje når du er på enden
 
-    når man skal gå opp eller ned må man trekke fra eller legge til width for å få riktig index
+    Hvis det er åpen gang så må man havne på andre siden
 
-    modulus for å sjekke om man har truffet veggen
+    Hva skjer når man spiser power-pellets
 
-    hvis du har en åpen vei som går fra ene siden til helt motsatt side så må du gjøre en sjekk på koordinatene
+    Hva skjer når man treffer på spøkelse?
 
-    må ha sjekk for om det neste skrittet har classname wall på seg, hvis det ikke har det så kan du flytte
+    Hvert ghost kan få en egen farge og eget navn? forskjellig fart og utgangsposisjon
 
-    pac-man kan ikke gå der det er ghost lair
+    Få spøkelsene til å bevege seg i random retning
 
-    sjekk for om man vinner, om det er game over, om man spiser en power pallet, må lages funksjoner for det
+    Score må oppdatere seg når du spiser pallets 
 
-    score osv må legges til html elementer når de blir oppdatert
+    Hva er poengscore for å vinne?
 
-    hvis pacman er på en rute med pacdot, score++ og remove pacdot class
-
-    power pallets øker score med 10 og gjør ghost redde
-
-    constructor?? for ghost, initiere verdier for ghost
-
-    hvert ghost må ha navn og farge, fart og startpunkt
-
-    sette random retning og add remove slik at det kun er en rute hele veien
-
-    få ghost til å bevege seg riktig slik at den ikke treffer veggene og ikke går til neste linje 
-
-    skrive funksjon for hva som skjer når ghost er redd
-
-
+    Når taper man?
+    
+    ting må resettes til null når man er ferdig med spillet
 
 
 */
