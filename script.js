@@ -13,7 +13,7 @@ container for grid
  Grids: høyde og bredde // hele rammen for spillet
  Grids div: høyde og bredde // dette er boksene for vegger og pac-man
  Flex-wrap på classen grid som får divs til å fylle hele grid
- Lag en class for elementer på brettet, ghost skal ikke ha styling
+ Lag en class for elementer på brettet
     0- Pac dots
     1- wall
     2- ghost layer
@@ -77,10 +77,10 @@ const layout = [
     4- empty
     
     
-    Du må lage ruter i div som vi har kalt grid,
+    Du må lage ruter som skal være i div som vi har kalt grid,
     hver rute blir en index som det enten kan være pac-dots, wall, ghost-laier, power-pellet eller pac-man på
     det må ikke være flere ruter enn det er elementer i layout siden disse skal fylle grid. 
-    Det kan være greit å bruke en loop her for å sjekke opp mot lengden på layout.
+    Det kan være greit å bruke en loop her for å sjekke opp mot lengden på layout og som lager en div for hvert element
 
     Du må finne ut hvilke ruter som har hvilket tall og gi de riktig class som du definerte i CSS
 
