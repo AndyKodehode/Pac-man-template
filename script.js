@@ -83,5 +83,31 @@ const layout = [
 
     modulus for å sjekke om man har truffet veggen
 
+    hvis du har en åpen vei som går fra ene siden til helt motsatt side så må du gjøre en sjekk på koordinatene
+
+    må ha sjekk for om det neste skrittet har classname wall på seg, hvis det ikke har det så kan du flytte
+
+    pac-man kan ikke gå der det er ghost lair
+
+    sjekk for om man vinner, om det er game over, om man spiser en power pallet, må lages funksjoner for det
+
+    score osv må legges til html elementer når de blir oppdatert
+
+    hvis pacman er på en rute med pacdot, score++ og remove pacdot class
+
+    power pallets øker score med 10 og gjør ghost redde
+
+    constructor?? for ghost, initiere verdier for ghost
+
+    hvert ghost må ha navn og farge, fart og startpunkt
+
+    sette random retning og add remove slik at det kun er en rute hele veien
+
+    få ghost til å bevege seg riktig slik at den ikke treffer veggene og ikke går til neste linje 
+
+    skrive funksjon for hva som skjer når ghost er redd
+
+
+
 
 */
