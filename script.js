@@ -82,7 +82,8 @@ const layout = [
     det må ikke være flere ruter enn det er elementer i layout siden disse skal fylle grid. 
     Det kan være greit å bruke en loop her for å sjekke opp mot lengden på layout og som lager en div for hvert element
 
-    Du må finne ut hvilke ruter som har hvilket tall og gi de riktig class som du definerte i CSS
+    Du må finne ut hvilke ruter som har hvilket tall og gi de riktig class som du definerte i CSS,
+    hvordan kan du få koden til å se etter tallene for deg?
 
     Du må definere hvilken index pacman har
 
