@@ -38,6 +38,10 @@ Javascript metoder du kan få bruk for i dette prosjektet
 - .innerHTML
 - .addEventListener
 
+
+
+//Grid//
+
 Grid fra Ania Kubow
 const layout = [
         1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
@@ -85,13 +89,13 @@ const layout = [
     Du må finne ut hvilke ruter som har hvilket tall og gi de riktig class som du definerte i CSS,
     hvordan kan du få koden til å se etter tallene for deg?
 
-    Du må definere hvilken index pacman har
+    
 
+    //Bevegelse//
     
     finn ut hvordan du kan registrere hvilken key du trykker på tastaturet 
-    legg til hva som skal skje med index når du trykker opp, ned, venstre, høyre
 
-    du må finne ut hvordan du flytter pacman, du må legge til og fjerne className og oppdatere indexen pacman er på
+    legg til hva som skal skje med index når du trykker opp, ned, venstre, høyre
 
     Hvordan skal du få inn at du treffer vegg og ikke kan gå igjennom vegg?
 
@@ -99,21 +103,50 @@ const layout = [
 
     Hvis det er åpen gang så må man havne på andre siden
 
-    Hva skjer når man spiser power-pellets
 
-    Hva skjer når man treffer på spøkelse?
+    //Ghost//
 
     Hvert ghost kan få en egen farge og eget navn? forskjellig fart og utgangsposisjon
 
     Få spøkelsene til å bevege seg i random retning
 
-    Score må oppdatere seg når du spiser pallets 
+
+    //Pac-Man//
+     
+    Du må definere hvilken index pacman har
+
+    du må finne ut hvordan du flytter pacman, du må legge til og fjerne className og oppdatere indexen pacman er på
+
+     Score må oppdatere seg når du spiser pallets
+
+     
+
+    //Regler og resultat//
+    
+    Hva skjer når man spiser power-pellets
+
+    Hva skjer når man treffer på spøkelse?
 
     Hva er poengscore for å vinne?
 
     Når taper man?
-    
+
     ting må resettes til null når man er ferdig med spillet
+
+    
+
+    
+
+    
+
+    
+    
+
+   
+
+    
+    
+    
 
 
 */
