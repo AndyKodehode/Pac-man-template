@@ -119,9 +119,11 @@ const layout = [
 
      Score må oppdatere seg når du spiser pallets
 
-     
+
 
     //Regler og resultat//
+
+    koble resultat til HTML
     
     Hva skjer når man spiser power-pellets
 
@@ -132,6 +134,8 @@ const layout = [
     Når taper man?
 
     ting må resettes til null når man er ferdig med spillet
+
+    
 
     
 
